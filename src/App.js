@@ -1,22 +1,31 @@
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="container">
         <div className="row">
           <div className="col-6">
             <img
-              src="image-product.jpg"
-              className="img-fluid"
+              src="https://xoxosonja.com/wp-content/uploads/2017/09/DSC09169.jpg"
+              className="img-fluid rounded "
               alt="perfume-product"
             />
           </div>
-          <div className="col-6"></div>
+          <div className="col-6 perfume-info">
+            <h4>PERFUME </h4>
+            <h1>Gabrielle Essence Eau De Parfum</h1>
+            <p>
+              A floral, solar and voluptuous interpretation composed by Olivier
+              Polge, Perfumer-Creator for the House of CHANEL.{" "}
+            </p>
+            <span className="price">$149.99 </span>
+            <span className="discount">$169.99</span>
+            <br />
+            <button className="btn">🛒Add to Cart</button>
+          </div>
         </div>
       </div>
     </div>
   );
 }
-
-export default App;

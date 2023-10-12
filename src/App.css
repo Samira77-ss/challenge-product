@@ -1,0 +1,83 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+:root {
+  --initial-font: "Montserrat", sans-serif;
+  --primary-color: hsl(158, 36%, 37%);
+}
+.App img {
+  border-radius: 20px 0 0 20px;
+  padding: 0 auto;
+  width: 400px;
+}
+.App h1 {
+  font-family: "Playfair Display", serif;
+  line-height: 1;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+.App h4 {
+  font-family: var(--initial-font);
+  font-size: 15px;
+  opacity: 0.6;
+  font-weight: lighter;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.App p {
+  font-family: var(--initial-font);
+  font-size: 15px;
+  opacity: 0.5;
+  font-weight: lighter;
+}
+.App button {
+  font-family: var(--initial-font);
+  font-size: 15px;
+  background: var(--primary-color);
+  color: #fff;
+  margin: 20px auto;
+  padding: 10px 60px;
+  border-radius: 10px;
+  transition: all 200ms ease;
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+}
+.App button:hover {
+  background: #fff;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.App .container {
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+  position: relative;
+  left: 80px;
+}
+.App .perfume-info {
+  border-radius: 0 10px 10px 0;
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px;
+  width: 300px;
+  position: relative;
+  left: -72px;
+}
+.App .price {
+  font-family: "Fraunces", serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: var(--primary-color);
+}
+.App .discount {
+  font-family: var(--initial-font);
+  font-size: 15px;
+  opacity: 0.6;
+  text-decoration: line-through;
+  position: relative;
+  right: -15px;
+  top: -3px;
+}
+@media (max-width: 600px) {
+  .col-6 {
+    width: 100%;
+  }
+}
