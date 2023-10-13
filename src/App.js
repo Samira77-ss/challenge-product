@@ -26,6 +26,24 @@ export default function App() {
           </div>
         </div>
       </div>
+      <footer>
+        This page was coded by Samira Seyfi{" "}
+        <a
+          href="https://github.com/Samira77-ss/Challenge1"
+          target="_blank"
+          alt="GithHub Profile"
+        >
+          open-source-code on GitHub
+        </a>
+        , and hosted on{" "}
+        <a
+          href="https://calm-khapse-b18156.netlify.app/"
+          alt="Netlify link"
+          target="_blank"
+        >
+          Netlify
+        </a>
+      </footer>
     </div>
   );
 }

@@ -46,10 +46,15 @@ body {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
+.App footer {
+  text-align: center;
+  margin: 20px auto;
+}
 .App .container {
   display: flex;
   justify-content: center;
   margin: 100px auto;
+  margin-bottom: 0;
   position: relative;
   left: 80px;
 }
