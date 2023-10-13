@@ -13,7 +13,7 @@ export default function App() {
             />
           </div>
           <div className="col-6 perfume-info">
-            <h4>PERFUME </h4>
+            <h4>P&nbsp;E&nbsp;R&nbsp;F&nbsp;U&nbsp;M&nbsp;E </h4>
             <h1>Gabrielle Essence Eau De Parfum</h1>
             <p>
               A floral, solar and voluptuous interpretation composed by Olivier
@@ -29,9 +29,10 @@ export default function App() {
       <footer>
         This page was coded by Samira Seyfi{" "}
         <a
-          href="https://github.com/Samira77-ss/Challenge1"
+          href="https://github.com/Samira77-ss/challenge-product"
           target="_blank"
           alt="GithHub Profile"
+          rel="noreferrer"
         >
           open-source-code on GitHub
         </a>
@@ -40,6 +41,7 @@ export default function App() {
           href="https://calm-khapse-b18156.netlify.app/"
           alt="Netlify link"
           target="_blank"
+          rel="noreferrer"
         >
           Netlify
         </a>
