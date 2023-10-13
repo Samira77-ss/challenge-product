@@ -82,7 +82,25 @@ body {
   top: -3px;
 }
 @media (max-width: 600px) {
+  img {
+    position: relative;
+    left: -85px;
+    border-radius: 5px 5px 0 0;
+    padding: 2px;
+  }
+  .App button {
+    padding: 10px 70px;
+  }
+  .App h1 {
+    font-size: 30px;
+  }
+
   .col-6 {
     width: 100%;
+  }
+  .App .perfume-info {
+    width: 400px;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
   }
 }
