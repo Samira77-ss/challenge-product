@@ -7,7 +7,8 @@ export default function App() {
         <div className="row">
           <div className="col-6">
             <img
-              src="https://xoxosonja.com/wp-content/uploads/2017/09/DSC09169.jpg"
+              src="	https://classy-pavlova-fd5c93.netlify.app/images/image-product-desktop.jpg
+"
               className="img-fluid rounded "
               alt="perfume-product"
             />
